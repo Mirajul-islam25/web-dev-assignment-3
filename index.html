@@ -35,6 +35,10 @@
       .Manrope-font {
         font-family: "Manrope", sans-serif;
       }
+      .my-image {
+          background-image: url(images/bg.jpg);
+          background-size: cover;
+        }
     </style>
   </head>
   <body class="Manrope-font mx-auto">
@@ -118,7 +122,8 @@
           sophistication, featuring weathered wood,<br />sleek metal accents,
           and large windows that flood the space with natural light
         </p>
-        <a class="btn bg-[#ABEF5F] rounded-full px-2"
+        
+        <a class="btn bg-[#ABEF5F] rounded-full px-5"
           >View Details
           <div class="h-7 w-7 bg-[#ABEF5F] mx-auto rounded-full">
             <svg
@@ -136,6 +141,7 @@
               />
             </svg></div
         ></a>
+     
       </div>
     </header>
     <main>
@@ -183,6 +189,32 @@
           </div>
         </div>
       </section>
+      <!-- members section -->
+       <section class="bg-[#f2f3f5] px-16">
+           <div class="bg-[#fff] sm:flex justify-evenly p-7 rounded-2xl">
+                <div class="border-red-400 border border-none text-center py-4">
+                    <img class="w-16 mx-auto mb-4" src="icons/comment.png" alt="">
+                  <h1 class="text-4xl font-extrabold mb-4">235+</h1>
+                  <p class="text-[#737373]">Happy Client Review</p>
+                </div>
+                <div class="border-red-400 border border-none text-center py-4">
+                  <img class="w-16 mx-auto mb-4" src="icons/notes.png" alt="">
+                  <h1 class="text-4xl font-extrabold mb-4">50+</h1>
+                  <p class="text-[#737373]">Work Departments</p>
+                </div>
+                <div class="border-red-400 border border-none text-center py-4">
+                  <img class="w-16 mx-auto mb-4" src="icons/customers.png" alt="">
+                  <h1 class="text-4xl font-extrabold mb-4">30k+</h1>
+                  <p class="text-[#737373]">Our Happy Client</p>
+                </div>
+                <div class="border-red-400 border border-none text-center py-4">
+                  <img class="w-16 mx-auto mb-4" src="icons/users-avatar.png" alt="">
+                  <h1 class="text-4xl font-extrabold mb-4">307+</h1>
+                  <p class="text-[#737373]">Staff Members</p>
+                </div>
+
+           </div>
+       </section>
       <!-- how we works section -->
       <section class="bg-[#f2f3f5] py-28 mb-24">
         <div class="text-center">
@@ -234,7 +266,7 @@
         </div>
       </section>
       <!-- Explore our Latest works section -->
-      <section>
+      <section class="mb-24">
         <div class="text-center">
           <button class="bg-[#b4e47e] px-5 py-2 rounded-full mb-5">
             &rarr;<strong>Explore our Latest works</strong>
@@ -245,12 +277,113 @@
             sophistication,<br />featuring weathered wood, sleek metal accents.
           </p>
         </div>
+          <!-- first image container -->
+        <div class="sm:flex gap-6 sm:gap-y-5 border justify-center border-none sm:mx-5 mb-6">
+          <div class="sm:flex gap-6 border-2 p-4 rounded-xl">
+            <img src="images/img1.png" alt="">
+           <div>
+            <h1 class="text-2xl font-extrabold mb-4">Commercial</h1>
+            <p class="text-[#737373] mb-4">The barn house captivates with its blend of rustic<br>charm
+               and modern. The barn house captivates with<br> its blend of
+               rustic charm and modern .</p>
+               <div class="flex">
+                <a class="btn btn-ghost text-2xl text-[#000] font-extrabold"
+                >View Details</a>
+                <div class="h-7 w-7 bg-[#b4e47e] text-[#000] mx-auto rounded-full">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                    />
+                  </svg>
+                </div>
+              </div>
+           </div>
+          </div>
+          <div class="border-2 rounded-xl p-4">
+            <img src="images/img2.png" alt="">
+          </div>
+        </div>
+         <!-- second image container -->
+          <div class="sm:flex border mx-auto justify-center border-none gap-5">
+            <div class="border-2 rounded-xl p-4"><img src="images/img3.png" alt=""></div>
+            <div class="sm:flex gap-6 border-2 p-4 rounded-xl">
+              <img src="images/img4.png" alt="">
+             <div>
+              <h1 class="text-2xl font-extrabold mb-4">Commercial</h1>
+              <p class="text-[#737373] mb-4">The barn house captivates<br>with its blend of rustic <br> charm and modern. </p>
+                 <div class="flex">
+                  <a class="btn btn-ghost text-2xl text-[#000] font-extrabold"
+                  >View Details</a>
+                  <div class="h-7 w-7 bg-[#b4e47e] text-[#000] mx-auto rounded-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </div>
+                </div>
+             </div>
+            </div>
+            <div class="border-2 rounded-xl p-4"><img class="sm:w-auto" src="images/img5.png" alt=""></div>
+          </div>
       </section>
+      <!-- text & login form section -->
+       <section>
+          <div class="my-image py-24">
+            <!-- text styles -->
+            <div class="text-center">
+              <button class="bg-[#b4e47e] px-5 py-2 rounded-full mb-5">
+                &rarr;<strong>Let s Connect</strong>
+              </button>
+              <h1 class="text-4xl font-extrabold mb-6">Let s Discuss Next Project</h1>
+              <p class="text-[#494949] mb-6">
+                The barn house captivates with its blend of rustic charm and modern
+                sophistication,<br />featuring weathered wood, sleek metal accents.
+              </p>
+            </div>
+         <!-- login form styles -->
+          <div class="gap-5 border border-none sm:mr-28">
+               <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-6 text-center mx-64 mb-5">
+                <div><input class="p-4 w-96 bg-[#fff] border-red-200 border rounded-full" type="text" placeholder="First-Name*"></div>
+               <div><input class="p-4 w-96 bg-[#fff] border-red-200 border rounded-full" type="text" placeholder="Last-Name*"></div>
+               </div>
+
+               <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-6 text-center ml-64 mb-5">
+                <div><input class="p-4 w-96 bg-[#fff] border-red-200 border rounded-full" type="text" placeholder="Phone-Number*"></div>
+               <div><input class="p-4 w-96 bg-[#fff] border-red-200 border rounded-full" type="text" placeholder="Email-Number*"></div>
+               </div>
+
+               <div class="text-center">
+                <div><input class="p-4 col-span-4 w-1/2 bg-[#fff] border-red-200 border rounded-full" type="text" placeholder="Number*"></div>
+               </div>
+              
+          </div>
+
+          </div>
+       </section>
     </main>
     <!-- footer section -->
     <footer class="footer footer-center bg-[#1c1c1c] text-primary-content py-16">
       <aside>
-        <a class="btn btn-ghost text-3xl text-[#fff] font-extrabold"
+        <a class="btn btn-ghost text-4xl text-[#fff] font-extrabold"
           ><div class="h-7 w-7 bg-[#ABEF5F] text-[#000] mx-auto rounded-full">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -301,6 +434,7 @@
         </svg>
       </div>
     </div>
+    <p class="text-[#ABEF5F]">Hi , i'm Mirajul  &copy;web-dev-assignment-3</p>
     </footer>
   </body>
 </html>
