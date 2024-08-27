@@ -147,20 +147,22 @@
     <main>
       <!-- about us section -->
       <section class="bg-[#f2f3f5] py-28">
-        <div class="sm:flex justify-between mx-10 gap-y-4">
+        <div class="sm:flex justify-between mx-10 gap-4">
           <div>
-            <button class="bg-[#fff] px-5 py-2 rounded-full mb-5">
-              &rarr;<strong>About Us</strong>
-            </button>
-            <h1 class="text-4xl font-bold mb-6">
-              We design thoughtful,<br />
-              liveable spaces
-            </h1>
-            <p class="text-[#494949] mb-6">
-              The barn house captivates with its blend of rustic charm and<br />
-              modern sophistication, featuring weathered wood, sleek metal
-              accents.
-            </p>
+            <div>
+              <button class="bg-[#fff] px-5 py-2 rounded-full mb-5">
+                &rarr;<strong>About Us</strong>
+              </button>
+              <h1 class="text-4xl font-bold mb-6">
+                We design thoughtful,<br />
+                liveable spaces
+              </h1>
+              <p class="text-[#494949] mb-6">
+                The barn house captivates with its blend of rustic charm and<br />
+                modern sophistication, featuring weathered wood, sleek metal
+                accents.
+              </p>
+            </div>
             <div class="bg-[#fff] w-full rounded-xl mb-5 flex gap-5 p-4">
               <img class="mt-4" src="images/commercial.png" alt="" />
               <div>
@@ -171,7 +173,7 @@
                 </p>
               </div>
             </div>
-            <div class="bg-[#fff] w-full rounded-xl flex gap-5 p-4">
+            <div class="bg-[#fff] w-full rounded-xl mb-6 flex gap-5 p-4">
               <div>
                 <img class="mt-4" src="images/residential.png" alt="" />
               </div>
@@ -189,7 +191,7 @@
           </div>
         </div>
       </section>
-      <!-- members section -->
+      <!-- counts section -->
        <section class="bg-[#f2f3f5] px-16">
            <div class="bg-[#fff] sm:flex justify-evenly p-7 rounded-2xl">
                 <div class="border-red-400 border border-none text-center py-4">
@@ -278,9 +280,10 @@
           </p>
         </div>
           <!-- first image container -->
-        <div class="sm:flex gap-6 sm:gap-y-5 border justify-center border-none sm:mx-5 mb-6">
-          <div class="sm:flex gap-6 border-2 p-4 rounded-xl">
-            <img src="images/img1.png" alt="">
+           <section class="mx-5">
+        <div class="sm:flex gap-7 sm:gap-y-5 border justify-center border-none sm:mx-5">
+          <div class="sm:flex gap-6 border-2 p-4 rounded-xl mb-5">
+            <img class="sm:w-auto w-full" src="images/img1.png" alt="">
            <div>
             <h1 class="text-2xl font-extrabold mb-4">Commercial</h1>
             <p class="text-[#737373] mb-4">The barn house captivates with its blend of rustic<br>charm
@@ -308,42 +311,28 @@
               </div>
            </div>
           </div>
-          <div class="border-2 rounded-xl p-4">
-            <img src="images/img2.png" alt="">
+          <div class="border-2 rounded-xl p-4 mb-5">
+            <img class="sm:w-auto w-full" src="images/img2.png" alt="">
           </div>
         </div>
          <!-- second image container -->
           <div class="sm:flex border mx-auto justify-center border-none gap-5">
-            <div class="border-2 rounded-xl p-4"><img src="images/img3.png" alt=""></div>
-            <div class="sm:flex gap-6 border-2 p-4 rounded-xl">
-              <img src="images/img4.png" alt="">
+            <div class="border-2 rounded-xl p-4 mb-5"><img class="sm:w-auto w-full" src="images/img3.png" alt=""></div>
+            <div class="sm:flex gap-6 border-2 p-4 rounded-xl mb-5">
+              <img class="sm:w-auto w-full" src="images/img4.png" alt="">
              <div>
               <h1 class="text-2xl font-extrabold mb-4">Commercial</h1>
-              <p class="text-[#737373] mb-4">The barn house captivates<br>with its blend of rustic <br> charm and modern. </p>
-                 <div class="flex">
+              <p class="text-[#737373]">The barn house captivates<br>with its blend of rustic <br> charm and modern. </p>
+                 <div class="flex pr-5">
                   <a class="btn btn-ghost text-2xl text-[#000] font-extrabold"
                   >View Details</a>
-                  <div class="h-7 w-7 bg-[#b4e47e] text-[#000] mx-auto rounded-full">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      class="size-6"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-                      />
-                    </svg>
-                  </div>
+                    <img class="w-3" src="icons/up-right-arrow.png" alt="">
                 </div>
              </div>
             </div>
-            <div class="border-2 rounded-xl p-4"><img class="sm:w-auto" src="images/img5.png" alt=""></div>
+            <div class="border-2 rounded-xl p-4 mb-5"><img class="sm:w-auto w-full" src="images/img5.png" alt=""></div>
           </div>
+        </section>
       </section>
       <!-- text & login form section -->
        <section>
@@ -360,23 +349,45 @@
               </p>
             </div>
          <!-- login form styles -->
-          <div class="gap-5 border border-none sm:mr-28">
-               <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-6 text-center mx-64 mb-5">
-                <div><input class="p-4 w-96 bg-[#fff] border-red-200 border rounded-full" type="text" placeholder="First-Name*"></div>
-               <div><input class="p-4 w-96 bg-[#fff] border-red-200 border rounded-full" type="text" placeholder="Last-Name*"></div>
-               </div>
+          <form class="text-center mx-auto mb-4">
+           <div class="sm:flex justify-center gap-6">
+              <div class="mb-4"><input class="p-4 w-96 bg-[#fff]  rounded-full" type="text" placeholder="First-Name*"></div>
+             <div class="mb-4"><input class="p-4 w-96 bg-[#fff] rounded-full" type="text" placeholder="Last-Name*"></div>
+            </div> 
+          <div class="sm:flex justify-center gap-6">
+             <div class="mb-4"><input class="p-4 w-96 bg-[#fff] rounded-full" type="text" placeholder="Phone-Number*"></div>
+             <div class="mb-4"><input class="p-4 w-96 bg-[#fff] rounded-full" type="text" placeholder="Email-Number*"></div>
+            </div>
+            <textarea class="rounded-2xl h-40 w-7/12 p-4" name="" id="" placeholder="Write your message here"></textarea>
+         
+          </form>
+          <!-- <div class=" bg-[#b4e47e] mx-72 rounded-xl py-2 gap-5 text-center">
+            <button class="text-2xl font-semibold">Send Mail</button>
+           
+            <img class="w-4 inline" src="icons/up-right-arrow.png" alt="">
+          </div> -->
 
-               <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-6 text-center ml-64 mb-5">
-                <div><input class="p-4 w-96 bg-[#fff] border-red-200 border rounded-full" type="text" placeholder="Phone-Number*"></div>
-               <div><input class="p-4 w-96 bg-[#fff] border-red-200 border rounded-full" type="text" placeholder="Email-Number*"></div>
-               </div>
-
-               <div class="text-center">
-                <div><input class="p-4 col-span-4 w-1/2 bg-[#fff] border-red-200 border rounded-full" type="text" placeholder="Number*"></div>
-               </div>
-              
+          <div class="flex bg-[#ABEF5F] rounded-full px-6">
+            <a class="btn btn-ghost text-2xl text-[#000] font-extrabold"
+            >Book Consult</a>
+            <div class="h-7 w-7 bg-[#000] text-[#fff] mx-auto rounded-full">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                />
+              </svg>
+            </div>
           </div>
-
+               
           </div>
        </section>
     </main>
